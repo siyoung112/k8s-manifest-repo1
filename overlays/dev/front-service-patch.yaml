@@ -4,9 +4,6 @@ metadata:
   name: demo-frontend
   annotations:
     alb.ingress.kubernetes.io/healthcheck-path: "/"
-    service.beta.kubernetes.io/aws-load-balancer-scheme: "internet-facing"
-    service.beta.kubernetes.io/aws-load-balancer-type: "external"
-    service.beta.kubernetes.io/aws-load-balancer-nlb-target-type: "ip"
   labels:
     env: dev
 spec:
